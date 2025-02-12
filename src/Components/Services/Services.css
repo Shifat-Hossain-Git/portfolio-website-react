@@ -101,3 +101,36 @@
         gap: 30px;
     }
 }
+@media(max-width: 720px) {
+    .services {
+        align-items: center;
+        gap: 60px;
+        margin: 20px 50px;
+    }
+    .services-title h1 {
+        font-size: 45px;
+    }
+    .services-title img {
+        width: 120px;
+        margin-right: -15px;
+    }
+    .services-formet {
+        gap: 18px;
+        padding: 28px;
+    }
+    .services-formet h2 {
+        font-size: 26px;
+    }
+    .services-formet p {
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 280px;
+    }
+    .services-readmore img {
+        width: 18px;
+    }
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}

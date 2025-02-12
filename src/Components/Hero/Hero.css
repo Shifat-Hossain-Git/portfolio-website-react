@@ -83,3 +83,34 @@
         border-radius: 40px;
     }
 }
+@media(max-width: 720px) {
+    .hero img {
+        margin-top: 130px;
+        width: 280px;
+    }
+    .hero h1 {
+        margin-top: 40px;
+        width: 85%;
+        font-size: 60px;
+    }
+    .hero p {
+        width: 65%;
+        font-size: 20px;
+        line-height: 34px;
+        margin: 15px 0;
+    }
+    .hero-action {
+        gap: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    .hero-connect {
+        padding: 22px 38px;
+        border-radius: 45px;
+    }
+    .hero-resume {
+        padding: 22px 60px;
+        border-radius: 45px;
+    }
+}
