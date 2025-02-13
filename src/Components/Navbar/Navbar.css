@@ -1,17 +1,19 @@
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 60px;
     font-size: 20px;
 }
-.nav-connect{
+
+.nav-connect {
     padding: 20px 40px;
     border-radius: 50px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
@@ -19,49 +21,53 @@
     cursor: pointer;
     transition: 0.5s;
 }
-.nav-connect:hover{
+
+.nav-connect:hover {
     transform: scale(1.05);
 }
-.nav-menu li{
+
+.nav-menu li {
     display: flex;
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
 }
-.nav-menu li img{
+
+.nav-menu li img {
     display: flex;
     margin: auto;
 }
-.anchor-link{
+
+.anchor-link {
     text-decoration: none;
     color: white;
 }
-.nav-mob-close{
+
+.nav-mob-close, .nav-mob-open {
     display: none;
 }
-.nav-mob-open{
-    display: none;
-}
-@media(max-width:768px){
-    .navbar{
-        margin: 20px 50px;
+
+/* Tablets and Smaller Devices */
+@media (max-width: 1024px) {
+    .navbar {
+        margin: 20px 60px;
     }
-    .nav-connect{
+    .nav-connect {
         display: none;
     }
-    .nav-mob-open{
+    .nav-mob-open {
         display: block;
         position: fixed;
-        right: 30px;
+        right: 35px;
     }
-    .nav-mob-close{
+    .nav-mob-close {
         display: block;
         position: relative;
         top: 30px;
         left: 290px;
         width: 30px;
     }
-    .nav-menu{
+    .nav-menu {
         position: fixed;
         flex-direction: column;
         align-items: start;
@@ -74,49 +80,62 @@
         transition: right 0.5s;
         right: -350px;
     }
-    .nav-menu li{
+    .nav-menu li {
         font-size: 30px;
         padding-left: 100px;
         flex-direction: row;
         gap: 20px;
     }
 }
-@media(max-width: 720px) {
+
+/* Mobile Devices */
+@media (max-width: 768px) {
     .navbar {
-        margin: 20px 40px;
-    }
-    .nav-connect {
-        display: none;
-    }
-    .nav-mob-open {
-        display: block;
-        position: fixed;
-        right: 25px;
-    }
-    .nav-mob-close {
-        display: block;
-        position: relative;
-        top: 25px;
-        left: 270px;
-        width: 28px;
+        margin: 20px 50px;
     }
     .nav-menu {
-        position: fixed;
-        flex-direction: column;
-        align-items: start;
-        top: 0;
-        gap: 25px;
-        background: #1F0016;
-        width: 330px;
-        height: 100%;
-        z-index: 2;
-        transition: right 0.5s;
-        right: -330px;
+        width: 320px;
+        right: -320px;
+    }
+}
+
+/* Smaller Mobile Screens */
+@media (max-width: 480px) {
+    .navbar {
+        margin: 15px 30px;
+    }
+    .nav-mob-open {
+        right: 20px;
+    }
+    .nav-mob-close {
+        left: 250px;
+    }
+    .nav-menu {
+        width: 280px;
+        right: -280px;
     }
     .nav-menu li {
-        font-size: 28px;
-        padding-left: 90px;
-        flex-direction: row;
-        gap: 18px;
+        font-size: 24px;
+        padding-left: 70px;
+    }
+}
+
+/* Large Screens (Desktops) */
+@media (min-width: 1440px) {
+    .navbar {
+        margin: 20px 100px;
+    }
+    .nav-menu {
+        font-size: 22px;
+    }
+}
+
+/* Ultra-Wide Screens */
+@media (min-width: 1920px) {
+    .navbar {
+        margin: 20px 150px;
+    }
+    .nav-menu {
+        font-size: 24px;
     }
 }
