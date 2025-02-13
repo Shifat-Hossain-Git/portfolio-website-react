@@ -1,5 +1,6 @@
 # Responsive Portfolio Website
 
+
 Welcome to my responsive portfolio website! This project is built using **React** and **Vite**, ensuring fast performance and an optimized development experience. The portfolio is fully responsive, adapting seamlessly to all screen sizes, from desktops to mobile devices.
 
 **Demo:** (https://shifat-hossain-git.github.io/portfolio-website-react/)
@@ -26,8 +27,8 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-portfolio.git
-   cd your-portfolio
+   git clone https://github.com/Shifat-Hossain-Git/portfolio-website-react.git
+   cd portfolio-website-react
    ```
 2. Install dependencies:
    ```sh
@@ -59,7 +60,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you have any questions or suggestions, feel free to reach out:
 
-- **GitHub:** https://github.com/Shifat-Hossain_Git
+- **GitHub:** https://github.com/Shifat-Hossain-Git
 - **Email:** shifathossain.git@gmail.com
 
 ---
