@@ -1,5 +1,4 @@
 # Responsive Portfolio Website
----
 
 Welcome to my responsive portfolio website! This project is built using **React** and **Vite**, ensuring fast performance and an optimized development experience. The portfolio is fully responsive, adapting seamlessly to all screen sizes, from desktops to mobile devices.
 
